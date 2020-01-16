@@ -1,0 +1,121 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+#logo {
+    position: fixed;
+    left: 0;
+    top: 22%;
+    width: 100%;
+    text-align: center;
+}
+
+.search {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  transform: translate (-50%, -50%);
+}
+
+.searchTerm {
+  width: 800px;
+  border: 1px solid rgb(202, 202, 202);
+  padding-left: 40px;
+  height: 40px;
+  font-size: 13px;
+  border-radius: 25px;
+  outline: none;
+}
+.search .fa-search { 
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  font-size: 15px;
+  color: #9AA0A6;
+}
+
+.button{
+  background-color: #f2f2f2; 
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-side{
+  position: absolute;
+  right: 0%;
+  top: 42%;
+  width: 100%;
+  text-align: center;
+}
+.about {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.about a {
+    float: left;
+    text-align: center;
+    padding: 14px 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+.icon-bar {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  
+  .icon-bar a {
+    float: left; 
+    text-align: center; 
+    padding: 14px 10px; 
+    color: grey; 
+    text-decoration: none;
+  }
+
+  .bottom-left {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+  }
+
+  .bottom-left a {
+    float: left;
+    text-align: center;
+    padding: 14px 10px;
+    color: grey;
+    text-decoration: none;
+  }
+
+  .bottom-right {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    
+  }
+
+  .bottom-right a {
+    float: left;
+    text-align: center;
+    padding: 14px 10px;
+    color: grey;
+    text-decoration: none;
+  }
